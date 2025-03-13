@@ -17,15 +17,15 @@ def classify(image):
     
     # Dictionary of categories with their possible values
     categories = {
-        "main_category": ["top", "bottom", "footwear"],
+        "main_category": ["shirt/top", "pants/skirts/shorts", "footwear"],
         "sub_category": {
-            "top": [
+            "shirt/top": [
                 "t-shirt", "button-up shirt", "blouse", "polo shirt", "tank top",
                 "sweater", "sweatshirt", "cardigan", "turtleneck", "crop top",
                 "tunic", "athletic top", "henley", "flannel shirt", "printed shirt",
                 "jacket", "dress"
             ],
-            "bottom": [
+            "pants/skirts/shorts": [
                 "jeans", "slacks", "chinos", "shorts", "skirt",
                 "leggings", "sweatpants", "cargo pants", "athletic shorts", "bermuda shorts",
                 "culottes", "capri pants", "palazzo pants", "cargo shorts", "denim shorts"
